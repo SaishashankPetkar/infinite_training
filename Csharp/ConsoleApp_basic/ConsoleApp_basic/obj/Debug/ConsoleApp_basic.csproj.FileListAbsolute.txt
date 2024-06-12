@@ -1,0 +1,7 @@
+D:\Trainning_matarial\Csharp\ConsoleApp_basic\ConsoleApp_basic\bin\Debug\ConsoleApp_basic.exe.config
+D:\Trainning_matarial\Csharp\ConsoleApp_basic\ConsoleApp_basic\bin\Debug\ConsoleApp_basic.exe
+D:\Trainning_matarial\Csharp\ConsoleApp_basic\ConsoleApp_basic\bin\Debug\ConsoleApp_basic.pdb
+D:\Trainning_matarial\Csharp\ConsoleApp_basic\ConsoleApp_basic\obj\Debug\ConsoleApp_basic.csproj.AssemblyReference.cache
+D:\Trainning_matarial\Csharp\ConsoleApp_basic\ConsoleApp_basic\obj\Debug\ConsoleApp_basic.csproj.CoreCompileInputs.cache
+D:\Trainning_matarial\Csharp\ConsoleApp_basic\ConsoleApp_basic\obj\Debug\ConsoleApp_basic.exe
+D:\Trainning_matarial\Csharp\ConsoleApp_basic\ConsoleApp_basic\obj\Debug\ConsoleApp_basic.pdb

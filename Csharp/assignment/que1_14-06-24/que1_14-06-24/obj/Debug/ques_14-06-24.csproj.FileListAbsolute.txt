@@ -1,0 +1,6 @@
+D:\Trainning_matarial\Csharp\assignment\que1_14-06-24\que1_14-06-24\obj\Debug\ques_14-06-24.csproj.CoreCompileInputs.cache
+D:\Trainning_matarial\Csharp\assignment\que1_14-06-24\que1_14-06-24\obj\Debug\que1_14-06-24.exe
+D:\Trainning_matarial\Csharp\assignment\que1_14-06-24\que1_14-06-24\obj\Debug\que1_14-06-24.pdb
+D:\Trainning_matarial\Csharp\assignment\que1_14-06-24\que1_14-06-24\bin\Debug\que1_14-06-24.exe.config
+D:\Trainning_matarial\Csharp\assignment\que1_14-06-24\que1_14-06-24\bin\Debug\que1_14-06-24.exe
+D:\Trainning_matarial\Csharp\assignment\que1_14-06-24\que1_14-06-24\bin\Debug\que1_14-06-24.pdb

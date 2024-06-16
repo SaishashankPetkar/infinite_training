@@ -5,3 +5,10 @@ C:\Users\saishashankp\source\repos\day2_dotnet\day2_dotnet\obj\Debug\day2_dotnet
 C:\Users\saishashankp\source\repos\day2_dotnet\day2_dotnet\obj\Debug\day2_dotnet.csproj.CoreCompileInputs.cache
 C:\Users\saishashankp\source\repos\day2_dotnet\day2_dotnet\obj\Debug\day2_dotnet.exe
 C:\Users\saishashankp\source\repos\day2_dotnet\day2_dotnet\obj\Debug\day2_dotnet.pdb
+D:\Trainning_matarial\Csharp\day2_dotnet\day2_dotnet\bin\Debug\day2_dotnet.exe.config
+D:\Trainning_matarial\Csharp\day2_dotnet\day2_dotnet\bin\Debug\day2_dotnet.exe
+D:\Trainning_matarial\Csharp\day2_dotnet\day2_dotnet\bin\Debug\day2_dotnet.pdb
+D:\Trainning_matarial\Csharp\day2_dotnet\day2_dotnet\obj\Debug\day2_dotnet.csproj.AssemblyReference.cache
+D:\Trainning_matarial\Csharp\day2_dotnet\day2_dotnet\obj\Debug\day2_dotnet.csproj.CoreCompileInputs.cache
+D:\Trainning_matarial\Csharp\day2_dotnet\day2_dotnet\obj\Debug\day2_dotnet.exe
+D:\Trainning_matarial\Csharp\day2_dotnet\day2_dotnet\obj\Debug\day2_dotnet.pdb

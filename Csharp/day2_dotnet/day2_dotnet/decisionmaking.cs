@@ -29,22 +29,24 @@ namespace day2_dotnet
         {
             Console.Write("Enter your grade: ");
             char grade = Convert.ToChar(Console.ReadLine());
-            switch(grade)
+            Console.Write("Enter your grade: ");
+            int math = Convert.ToInt32(Console.ReadLine());
+            switch (grade, math)
             {
-                case 'O':
-                case 'o':
-                    Console.WriteLine("Outstanding");
+                case ('O',90):
+                case ('o', 90):
+                    Console.WriteLine($"Outstanding and your mathamatics score is{math}");
                     break;
-                case 'a':
-                case 'A':
+                case ('a',80):
+                case ('A',80):
                     Console.WriteLine("Excellent");
                     break;
-                case 'b':
-                case 'B':
+                case ('b',70):
+                case ('B',70):
                     Console.WriteLine("Very Good");
                     break;
-                case 'C':
-                case 'c':
+                case ('C',60):
+                case ('c',60):
                     Console.WriteLine("Can Improve");
                     break;
                 default:

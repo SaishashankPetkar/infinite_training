@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>que4_5_16_06_24.que5</StartupObject>
+    <StartupObject>que4_5_16_06_24.que4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -1,0 +1,11 @@
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\bin\Debug\day4_dotnet_2.exe.config
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\bin\Debug\day4_dotnet_2.exe
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\bin\Debug\day4_dotnet_2.pdb
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\bin\Debug\day4_dotnet.exe
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\bin\Debug\day4_dotnet.pdb
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\bin\Debug\day4_dotnet.exe.config
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\obj\Debug\day4_dotnet_2.csproj.AssemblyReference.cache
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\obj\Debug\day4_dotnet_2.csproj.CoreCompileInputs.cache
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\obj\Debug\day4_dotnet_2.csproj.CopyComplete
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\obj\Debug\day4_dotnet_2.exe
+D:\Trainning_matarial\Csharp\day4_dotnet\day4_dotnet_2\obj\Debug\day4_dotnet_2.pdb

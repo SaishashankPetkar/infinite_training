@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace assignment_19_06_24
+namespace Assignment4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            que1string.stringops();
-            //que2exchangestring.stringexc();
-            //que3findthelargestnum.largestnum();
-            //que4multiplicationtables.multiplicationtables();
+            //que1.flnamecall();
+            //que2.charoccurancecount();
+            //que3.accalling();
+            que4.scholarshipcalling();
             Console.Read();
         }
     }

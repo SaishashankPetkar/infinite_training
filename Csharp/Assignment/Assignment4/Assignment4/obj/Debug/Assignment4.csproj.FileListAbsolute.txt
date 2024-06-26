@@ -1,0 +1,7 @@
+D:\Trainning_matarial\Csharp\Assignment\Assignment4\Assignment4\bin\Debug\Assignment4.exe.config
+D:\Trainning_matarial\Csharp\Assignment\Assignment4\Assignment4\bin\Debug\Assignment4.exe
+D:\Trainning_matarial\Csharp\Assignment\Assignment4\Assignment4\bin\Debug\Assignment4.pdb
+D:\Trainning_matarial\Csharp\Assignment\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.AssemblyReference.cache
+D:\Trainning_matarial\Csharp\Assignment\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.CoreCompileInputs.cache
+D:\Trainning_matarial\Csharp\Assignment\Assignment4\Assignment4\obj\Debug\Assignment4.exe
+D:\Trainning_matarial\Csharp\Assignment\Assignment4\Assignment4\obj\Debug\Assignment4.pdb

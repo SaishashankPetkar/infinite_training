@@ -49,6 +49,7 @@
     <Compile Include="que2.cs" />
     <Compile Include="que3.cs" />
     <Compile Include="que4.cs" />
+    <Compile Include="que5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

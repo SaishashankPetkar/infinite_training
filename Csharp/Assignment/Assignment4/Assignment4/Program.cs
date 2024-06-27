@@ -13,7 +13,8 @@ namespace Assignment4
             //que1.flnamecall();
             //que2.charoccurancecount();
             //que3.accalling();
-            que4.scholarshipcalling();
+            //que4.scholarshipcalling();
+            que5.doccalling();
             Console.Read();
         }
     }

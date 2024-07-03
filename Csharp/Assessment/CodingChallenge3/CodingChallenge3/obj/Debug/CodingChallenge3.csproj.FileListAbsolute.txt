@@ -1,0 +1,7 @@
+D:\Trainning_matarial\Csharp\Assessment\CodingChallenge3\CodingChallenge3\bin\Debug\CodingChallenge3.exe.config
+D:\Trainning_matarial\Csharp\Assessment\CodingChallenge3\CodingChallenge3\bin\Debug\CodingChallenge3.exe
+D:\Trainning_matarial\Csharp\Assessment\CodingChallenge3\CodingChallenge3\bin\Debug\CodingChallenge3.pdb
+D:\Trainning_matarial\Csharp\Assessment\CodingChallenge3\CodingChallenge3\obj\Debug\CodingChallenge3.csproj.AssemblyReference.cache
+D:\Trainning_matarial\Csharp\Assessment\CodingChallenge3\CodingChallenge3\obj\Debug\CodingChallenge3.csproj.CoreCompileInputs.cache
+D:\Trainning_matarial\Csharp\Assessment\CodingChallenge3\CodingChallenge3\obj\Debug\CodingChallenge3.exe
+D:\Trainning_matarial\Csharp\Assessment\CodingChallenge3\CodingChallenge3\obj\Debug\CodingChallenge3.pdb

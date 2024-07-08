@@ -1,0 +1,6 @@
+D:\Trainning_matarial\Csharp\Assignment\Assignment6\CalculateConcession\bin\Debug\CalculateConcession.dll
+D:\Trainning_matarial\Csharp\Assignment\Assignment6\CalculateConcession\bin\Debug\CalculateConcession.pdb
+D:\Trainning_matarial\Csharp\Assignment\Assignment6\CalculateConcession\obj\Debug\CalculateConcession.csproj.AssemblyReference.cache
+D:\Trainning_matarial\Csharp\Assignment\Assignment6\CalculateConcession\obj\Debug\CalculateConcession.csproj.CoreCompileInputs.cache
+D:\Trainning_matarial\Csharp\Assignment\Assignment6\CalculateConcession\obj\Debug\CalculateConcession.dll
+D:\Trainning_matarial\Csharp\Assignment\Assignment6\CalculateConcession\obj\Debug\CalculateConcession.pdb

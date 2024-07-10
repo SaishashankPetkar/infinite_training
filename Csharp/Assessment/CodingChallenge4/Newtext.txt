@@ -1,0 +1,2 @@
+This is the text when file is created
+this is the text when file already exist and we append the file with this text

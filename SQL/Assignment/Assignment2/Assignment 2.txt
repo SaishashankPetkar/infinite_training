@@ -110,6 +110,6 @@ select ename'Employee Name',sal'Salary' from EMP where sal not between 1200 and 
 
 --que15.Find all managers who have more than 2 employees reporting to them
 select m.ename 'Manager Name', COUNT(e.empno) 'Number of Employees Reporting'
-FROM emp e inner join EMP m on e.mgr_id=m.empno where m.job='MANAGER'
+FROM emp e inner join EMP m on e.mgr_id=m.empno
 group by m.ename
 having COUNT(e.empno)>2

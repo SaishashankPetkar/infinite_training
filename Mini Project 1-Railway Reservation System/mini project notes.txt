@@ -1,0 +1,3 @@
+Any Method:
+
+The Any method is used to determine if any elements in a sequence satisfy a condition. It returns true if any elements match the condition, otherwise it returns false.

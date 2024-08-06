@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE490BAB-5B1A-4FAC-8ECD-54397A40E9FA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RailwayReservationSystem</RootNamespace>
+    <AssemblyName>RailwayReservationSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>RailwayReservationSystem.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminDashboard.cs" />
+    <Compile Include="Home.cs" />
+    <Compile Include="Migrations\202408011352097_Initial Creat.cs" />
+    <Compile Include="Migrations\202408011352097_Initial Creat.designer.cs">
+      <DependentUpon>202408011352097_Initial Creat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408011418226_Admin Table creation.cs" />
+    <Compile Include="Migrations\202408011418226_Admin Table creation.designer.cs">
+      <DependentUpon>202408011418226_Admin Table creation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408021332497_Train Table creation.cs" />
+    <Compile Include="Migrations\202408021332497_Train Table creation.designer.cs">
+      <DependentUpon>202408021332497_Train Table creation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408021423133_Train Table Updated.cs" />
+    <Compile Include="Migrations\202408021423133_Train Table Updated.designer.cs">
+      <DependentUpon>202408021423133_Train Table Updated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408021555363_Train Table Updated 1.cs" />
+    <Compile Include="Migrations\202408021555363_Train Table Updated 1.designer.cs">
+      <DependentUpon>202408021555363_Train Table Updated 1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408021616265_Train Table Updated 2.cs" />
+    <Compile Include="Migrations\202408021616265_Train Table Updated 2.designer.cs">
+      <DependentUpon>202408021616265_Train Table Updated 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408031720239_Train Table Updated Price added.cs" />
+    <Compile Include="Migrations\202408031720239_Train Table Updated Price added.designer.cs">
+      <DependentUpon>202408031720239_Train Table Updated Price added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408032226443_Train Table Creation2.cs" />
+    <Compile Include="Migrations\202408032226443_Train Table Creation2.designer.cs">
+      <DependentUpon>202408032226443_Train Table Creation2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408032246406_Train Table update second class.cs" />
+    <Compile Include="Migrations\202408032246406_Train Table update second class.designer.cs">
+      <DependentUpon>202408032246406_Train Table update second class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408032327067_Train Table auto genration of key value stopped.cs" />
+    <Compile Include="Migrations\202408032327067_Train Table auto genration of key value stopped.designer.cs">
+      <DependentUpon>202408032327067_Train Table auto genration of key value stopped.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408041345267_Bookings Table Creation.cs" />
+    <Compile Include="Migrations\202408041345267_Bookings Table Creation.designer.cs">
+      <DependentUpon>202408041345267_Bookings Table Creation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408041506318_Bookings Table user_id datatype update.cs" />
+    <Compile Include="Migrations\202408041506318_Bookings Table user_id datatype update.designer.cs">
+      <DependentUpon>202408041506318_Bookings Table user_id datatype update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408041836313_Cancllation table creation.cs" />
+    <Compile Include="Migrations\202408041836313_Cancllation table creation.designer.cs">
+      <DependentUpon>202408041836313_Cancllation table creation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408042014366_Cancllation table name update.cs" />
+    <Compile Include="Migrations\202408042014366_Cancllation table name update.designer.cs">
+      <DependentUpon>202408042014366_Cancllation table name update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408042038003_Cancllation table forign key update.cs" />
+    <Compile Include="Migrations\202408042038003_Cancllation table forign key update.designer.cs">
+      <DependentUpon>202408042038003_Cancllation table forign key update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202408042045030_Cancllation table forign key update2.cs" />
+    <Compile Include="Migrations\202408042045030_Cancllation table forign key update2.designer.cs">
+      <DependentUpon>202408042045030_Cancllation table forign key update2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Bookings.cs" />
+    <Compile Include="Models\Cancellation.cs" />
+    <Compile Include="Models\RailwayReservationSystemDBContext.cs" />
+    <Compile Include="Models\Train.cs" />
+    <Compile Include="Models\Users.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user.cs" />
+    <Compile Include="UserReservation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202408011352097_Initial Creat.resx">
+      <DependentUpon>202408011352097_Initial Creat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408011418226_Admin Table creation.resx">
+      <DependentUpon>202408011418226_Admin Table creation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408021332497_Train Table creation.resx">
+      <DependentUpon>202408021332497_Train Table creation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408021423133_Train Table Updated.resx">
+      <DependentUpon>202408021423133_Train Table Updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408021555363_Train Table Updated 1.resx">
+      <DependentUpon>202408021555363_Train Table Updated 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408021616265_Train Table Updated 2.resx">
+      <DependentUpon>202408021616265_Train Table Updated 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408031720239_Train Table Updated Price added.resx">
+      <DependentUpon>202408031720239_Train Table Updated Price added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408032226443_Train Table Creation2.resx">
+      <DependentUpon>202408032226443_Train Table Creation2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408032246406_Train Table update second class.resx">
+      <DependentUpon>202408032246406_Train Table update second class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408032327067_Train Table auto genration of key value stopped.resx">
+      <DependentUpon>202408032327067_Train Table auto genration of key value stopped.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408041345267_Bookings Table Creation.resx">
+      <DependentUpon>202408041345267_Bookings Table Creation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408041506318_Bookings Table user_id datatype update.resx">
+      <DependentUpon>202408041506318_Bookings Table user_id datatype update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408041836313_Cancllation table creation.resx">
+      <DependentUpon>202408041836313_Cancllation table creation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408042014366_Cancllation table name update.resx">
+      <DependentUpon>202408042014366_Cancllation table name update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408042038003_Cancllation table forign key update.resx">
+      <DependentUpon>202408042038003_Cancllation table forign key update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408042045030_Cancllation table forign key update2.resx">
+      <DependentUpon>202408042045030_Cancllation table forign key update2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>

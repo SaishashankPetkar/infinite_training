@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function multiply() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var mul = num1 * num2;
+            document.getElementById("result").innerHTML = mul;
+        }
+        function divide() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var div = num1 / num2;
+            document.getElementById("result").innerHTML = div;
+        }
+    </script>
+</head>
+<body>
+    <h1>Multiplication and Division Calculator</h1>
+    <form>
+        <label>1st Number : </label>
+        <input type="text" id="num1" />
+        <br />
+        <label>2st Number : </label>
+        <input type="text" id="num2" />
+        <br />
+        <button type="button" onclick="multiply()">Multiply</button>
+        &nbsp;
+        <button type="button" onclick="divide()">Divide</button>
+    </form>
+    <p>The result is : </p>
+    <p id="result"></p>
+</body>
+</html>

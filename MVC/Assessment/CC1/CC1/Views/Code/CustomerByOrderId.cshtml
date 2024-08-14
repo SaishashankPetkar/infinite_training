@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "CustomerByOrderId";
+}
+
+<h2>Customer details with an orderId==10248</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Customer ID</th>
+            <th>Contact Name</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+<tr>
+    <td>@customer.CustomerID</td>
+    <td>@customer.ContactName</td>
+    <td>@customer.City</td>
+</tr>}
+    </tbody>
+</table>

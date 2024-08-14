@@ -1,0 +1,24 @@
+﻿@model CC1_Code_First.Models.Movie
+@{
+    ViewBag.Title = "Create";
+}
+<html>
+<head>
+    <title>Create Movie</title>
+</head>
+<body>
+    <h1>Create Movie</h1>
+    @using (Html.BeginForm())
+    {
+        <div>
+            <label>Movie Name</label>
+            @Html.TextBoxFor(m => m.Moviename)
+        </div>
+        <div>
+            <label>Date of Release</label>
+            @Html.TextBoxFor(m => m.DateofRelease, "{0:yyyy-MM-dd}")
+        </div>
+        <button type="submit">Create</button>
+    }
+</body>
+</html>

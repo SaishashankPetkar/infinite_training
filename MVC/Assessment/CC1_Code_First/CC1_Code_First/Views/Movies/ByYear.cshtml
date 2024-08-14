@@ -1,0 +1,36 @@
+﻿@model IEnumerable<CC1_Code_First.Models.Movie>
+<html>
+<head>
+    <title>Movies by Year</title>
+</head>
+<body>
+    <h1>Movies Released in @ViewBag.Year</h1>
+    @if (Model.Any())
+    {
+        <table>
+         <thead>
+             <tr>
+                 <th>Movie ID</th>
+                 <th>Movie Name</th>
+                 <th>Date of Release</th>
+             </tr>
+         </thead>
+         <tbody>
+             @foreach (var movie in Model)
+             {
+                 <tr>
+                   <td>@movie.Mid</td>
+                   <td>@movie.Moviename</td>
+                   <td>@movie.DateofRelease.ToShortDateString()</td>
+                 </tr>   
+             }
+         </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No movies found for the year @ViewBag.Year.</p>}
+        <a href="@Url.Action("Index")">Back to List</a>
+</body>
+</html>
+

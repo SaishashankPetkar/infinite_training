@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="Bentley.jpg" />
     <Content Include="Bugatti.jpg" />
-    <Content Include="error ss.jpg" />
     <Content Include="Lambo.jpg" />
     <Content Include="Que1.aspx" />
     <Content Include="Que2.aspx" />

@@ -1,0 +1,26 @@
+﻿@model CC1_Code_First.Models.Movie
+@{
+    ViewBag.Title = "Edit";
+}
+<html>
+<head>
+    <title>Edit Movie</title>
+</head>
+<body>
+    <h1>Edit Movie</h1>
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(m => m.Mid)
+        <div>
+            <label>Movie Name</label>
+            @Html.TextBoxFor(m => m.Moviename)
+        </div>
+        <div>
+            <label>Date of Release</label>
+            @Html.TextBoxFor(m => m.DateofRelease, "{0:yyyy-MM-dd}")
+        </div>
+        <button type="submit">Edit</button>
+    }
+</body>
+</html>
+

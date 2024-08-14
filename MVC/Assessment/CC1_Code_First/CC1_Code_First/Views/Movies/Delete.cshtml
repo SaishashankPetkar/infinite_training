@@ -1,0 +1,24 @@
+﻿@model CC1_Code_First.Models.Movie
+@{
+    ViewBag.Title = "Delete";
+}
+<html>
+<head>
+    <title>Delete Movie</title>
+</head>
+<body>
+    <h1>Delete Movie</h1>
+    <p>Are you sure you want to delete this movie?</p>
+    <div>
+        <h3>@Model.Moviename</h3>
+        <p>Date of Release: @Model.DateofRelease.ToShortDateString()</p>
+    </div>
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(m => m.Mid)
+    <button type="submit">Delete</button>
+    <a href="@Url.Action("Index")">Cancel</a>
+    }
+</body>
+</html>
+
